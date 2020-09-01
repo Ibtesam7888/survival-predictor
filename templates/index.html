@@ -98,7 +98,7 @@
                     <div class="row mb-3" id="result-box">
                         <div class="col">
                             <div style="height: 110px;background-color:lightgrey;padding-top: 15px;">
-                                <h2 id="result"><strong>{{predicted_result}}</strong></h2>
+                                <h2 id="result" style="display: none;"><strong>{{predicted_result}}</strong></h2>
                             </div>
                         </div>
                     </div>
@@ -115,12 +115,14 @@
                     document.getElementById("result").innerHTML =
                         '<i class="fa fa-smile-o"></i>  <h2 id="result"><strong>Survived</strong></h2>';
                     $("#result").css("color", "green");
+                    document.getElementById("result").style.display = "block";
                 }
 
                 if ($("#result").text() == "Not Survived") {
                     document.getElementById("result").innerHTML =
                         '<i class="fa fa-frown-o"></i>  <h2 id="result"><strong>Not Survived</strong></h2>';
                     $("#result").css("color", "#f22849");
+                    document.getElementById("result").style.display = "block";
                 }
             })
         });
