@@ -38,4 +38,4 @@ First of All you have to download the code as zip file or you can clone the repo
 
 => Alhamdulillah ! You have succesfully deployed your Machine Learning Model
 
-### ******************* In case of any query you can follow the documentation *******************
+### **** In case of any query you can follow the documentation ****
