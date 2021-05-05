@@ -16,11 +16,11 @@ To get legal access contact using this link [Muhammad_Ibtesam_Arshad](https://ww
 
 ## Steps to Follow
 
-### 1. Download the Code / Clone the repository
+#### 1. Download the Code / Clone the repository
 
 First of All you have to download the code as zip file or you can clone the repository
 
-### 2. Apply Changes
+#### 2. Apply Changes
 
 => You need to change the front-end template (Templates/index.html) to your own template
 
@@ -28,11 +28,11 @@ First of All you have to download the code as zip file or you can clone the repo
 
 => Customize (app.py) controller file according to your requirements
 
-### 3. Generate Requirements File
+#### 3. Generate Requirements File
 
 => Delete the existing (requirements.txt) file and generate your own with a new file through command prompt using command "pip freeze > requirements.txt" after iterating to your project's location
 
-### 4. Deployment
+#### 4. Deployment
 
 => Deploy the model to your github and connect heroku to your github
 
